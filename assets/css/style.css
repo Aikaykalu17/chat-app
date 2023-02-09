@@ -1,0 +1,2930 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.linear-main {
+    width: 100%;
+    height: 100%;
+}
+
+.linear {
+    grid-column: 1;
+    height: 790px;
+    width: 440px;
+    background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+    border-radius: 0 0 230px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-35px);
+}
+
+.iphone {
+    height: 700px;
+    background-color: #fff;
+    width: 360px;
+    transform: translateX(320px);
+    border-radius: 50px;
+    box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iphone-info {
+    width: 330px;
+    height: 670px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 33px 33px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iphone-head {
+    height: 125px;
+    background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px 33px 8px 8px;
+}
+
+.iphone-head-white {
+    height: 40px;
+    width: 170px;
+    background-color: #fff;
+    transform: translateY(-17px);
+    border-radius: 0 0 17px 17px;
+
+}
+
+.iphone-head-details {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.ri-arrow-left-s-line {
+    display: block;
+    transform: scale(2);
+    color: hsl(0, 0%, 100%);
+}
+
+.iphone-head-img {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.head-img {
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.head-words {}
+
+.head-h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.head-span {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.head-last-icon {}
+
+.ri-more-2-line {
+    transform: scale(2);
+    display: block;
+    color: hsl(0, 0%, 100%);
+}
+
+.iphone-chats {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first-chats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.first-chat {
+    background-color: hsl(270, 20%, 85%);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    border-radius: 14px 14px 14px 8px;
+    padding-left: 20px;
+
+}
+
+.first-chat-text {
+    width: 77%;
+    color: hsl(270, 55%, 52%);
+    font-size: 0.9rem;
+}
+
+.sec-chat {
+    background-color: hsl(270, 20%, 85%);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    border-radius: 14px 14px 14px 8px;
+    padding-left: 20px;
+}
+
+.sec-chat-text {
+    color: hsl(270, 55%, 52%);
+    font-size: 0.9rem;
+}
+
+.dog-chats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.dogs {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.dog-img {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.dog-chat-1 {
+    height: 45px;
+    background-color: #fff;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 8px 12px;
+}
+
+.dog-text-1 {
+    width: 86%;
+    color: hsl(271, 15%, 43%);
+    font-size: 0.9rem;
+}
+
+.dog-chat-2 {
+    height: 45px;
+    background-color: #fff;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 10px 20px;
+}
+
+.dog-text-2 {
+    color: hsl(271, 15%, 43%);
+    font-size: 0.9rem;
+}
+
+.last-chats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-last {
+    background-color: hsl(270, 20%, 85%);
+    height: 70px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px 14px 14px 8px;
+
+}
+
+.first-last-text {
+    width: 90%;
+    color: hsl(270, 55%, 52%);
+    font-size: 0.9rem;
+}
+
+.sec-last {
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+    height: 45px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 14px 14px 14px 8px;
+
+}
+
+.circle {
+    height: 25px;
+    background-color: transparent;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    opacity: 0.6;
+
+}
+
+.last-text {
+    color: #fff;
+}
+
+.last-span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.gap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.third-last {
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+    height: 45px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 14px 14px 14px 8px;
+
+}
+
+form {
+    display: flex;
+    border: 1px solid #fff;
+    background-color: #Fff;
+    align-items: center;
+    border-radius: 30px;
+}
+
+form:focus-within {
+    outline: 1px solid #Fff;
+}
+
+.input {
+    flex-grow: 2;
+    padding-left: 20px;
+    border-radius: 20rem;
+    border: none;
+    outline: none;
+    height: 55px;
+}
+
+.input:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+.input:hover {
+    background-color: #Fff;
+}
+
+.ri-arrow-right-s-line {
+    display: block;
+    transform: scale(1.7);
+    background-color: #000;
+    cursor: pointer;
+    margin-right: 14px;
+    color: #fff;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.details {
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-details {
+
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 20rem 20rem 0 0;
+    height: 100%;
+    transform: translate(170px, 100px);
+    width: 540px;
+    grid-column: 9;
+}
+
+.details-info {
+    transform: translate(-230px, 200px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: hsl(271, 36%, 24%);
+}
+
+.word-text {
+    font-size: 1.1rem;
+    width: 95%;
+    color: hsl(270, 7%, 64%);
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:1300px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        min-height: 0;
+
+    }
+
+    .linear-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linear {
+        grid-column: 1;
+        height: 600px;
+        width: 500px;
+        background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        border-radius: 0 0 230px 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-0px);
+    }
+
+    .iphone {
+        height: 597px;
+        background-color: #fff;
+        width: 320px;
+        transform: translate(222px, 117px);
+        border-radius: 50px;
+        box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .iphone-info {
+        width: 295px;
+        height: 567px;
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 33px 33px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iphone-head {
+        height: 100px;
+        background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 33px 33px 8px 8px;
+    }
+
+    .iphone-head-white {
+        height: 30px;
+        width: 170px;
+        background-color: #fff;
+        transform: translateY(-10px);
+        border-radius: 0 0 17px 17px;
+
+    }
+
+    .iphone-head-details {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ri-arrow-left-s-line {
+        display: block;
+        transform: scale(1);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-head-img {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .head-img {
+        height: 30px;
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .head-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .head-span {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .head-last-icon {}
+
+    .ri-more-2-line {
+        transform: scale(1);
+        display: block;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-chats {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .first-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+
+    }
+
+    .first-chat-text {
+        width: 80%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+    }
+
+    .sec-chat-text {
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+        width: 77%;
+    }
+
+    .dog-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .dogs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+
+    .dog-img {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .dog-chat-1 {
+        height: 35px;
+        background-color: #fff;
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 8px 12px;
+    }
+
+    .dog-text-1 {
+        width: 86%;
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .dog-chat-2 {
+        height: 35px;
+        background-color: #fff;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px 20px 10px 20px;
+    }
+
+    .dog-text-2 {
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .last-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .first-last {
+        background-color: hsl(270, 20%, 85%);
+        height: 55px;
+        width: 146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .first-last-text {
+        width: 90%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .circle {
+        height: 20px;
+        background-color: transparent;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        opacity: 0.6;
+
+    }
+
+    .last-text {
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    .last-span {
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+
+    .gap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .third-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    form {
+        display: flex;
+        border: 1px solid #fff;
+        background-color: #Fff;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    form:focus-within {
+        outline: 1px solid #Fff;
+    }
+
+    .input {
+        flex-grow: 2;
+        padding-left: 20px;
+        border-radius: 20rem;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: #fff;
+    }
+
+    .input:hover {
+        background-color: #Fff;
+    }
+
+    .ri-arrow-right-s-line {
+        display: block;
+        transform: scale(1.5);
+        background-color: #000;
+        cursor: pointer;
+        margin-right: 14px;
+        color: #fff;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .details {
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section-details {
+        height: 100%;
+    width: 50%;
+    z-index: -7;
+    transform: translate(570px, 13px);
+        
+    }
+    .section-details::after{
+        content: "";
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        width: 100%;
+    }
+
+    .details-info {
+        transform: translate(-161px, 300px);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-detailz {
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 800px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        z-index: -5;
+        grid-column: 9;
+
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: hsl(271, 36%, 24%);
+        text-align: center;
+    }
+
+    .word-text {
+        font-size: 1rem;
+        width: 95%;
+        color: hsl(270, 7%, 64%);
+        line-height: 2;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1000px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        min-height: 0;
+
+    }
+
+    .linear-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linear {
+        grid-column: 1;
+        height: 400px;
+        width: 220px;
+        background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        border-radius: 0 0 230px 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-0px);
+    }
+
+    .iphone {
+        height: 540px;
+        background-color: #fff;
+        width: 280px;
+        transform: translate(90px, 117px);
+        border-radius: 50px;
+        box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .iphone-info {
+        width: 270px;
+        height: 670px;
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 33px 33px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iphone-head {
+        height: 80px;
+        background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 33px 33px 8px 8px;
+    }
+
+    .iphone-head-white {
+        height: 30px;
+        width: 170px;
+        background-color: #fff;
+        transform: translateY(-3px);
+        border-radius: 0 0 17px 17px;
+
+    }
+
+    .iphone-head-details {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ri-arrow-left-s-line {
+        display: block;
+        transform: scale(1);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-head-img {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .head-img {
+        height: 30px;
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .head-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .head-span {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .head-last-icon {}
+
+    .ri-more-2-line {
+        transform: scale(1);
+        display: block;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-chats {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .first-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+
+    }
+
+    .first-chat-text {
+        width: 80%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+    }
+
+    .sec-chat-text {
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+        width: 77%;
+    }
+
+    .dog-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .dogs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+
+    .dog-img {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .dog-chat-1 {
+        height: 35px;
+        background-color: #fff;
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 8px 12px;
+    }
+
+    .dog-text-1 {
+        width: 86%;
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .dog-chat-2 {
+        height: 35px;
+        background-color: #fff;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px 20px 10px 20px;
+    }
+
+    .dog-text-2 {
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .last-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .first-last {
+        background-color: hsl(270, 20%, 85%);
+        height: 55px;
+        width: 146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .first-last-text {
+        width: 90%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .circle {
+        height: 20px;
+        background-color: transparent;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        opacity: 0.6;
+
+    }
+
+    .last-text {
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    .last-span {
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+
+    .gap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .third-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    form {
+        display: flex;
+        border: 1px solid #fff;
+        background-color: #Fff;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    form:focus-within {
+        outline: 1px solid #Fff;
+    }
+
+    .input {
+        flex-grow: 2;
+        padding-left: 20px;
+        border-radius: 20rem;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: #fff;
+    }
+
+    .input:hover {
+        background-color: #Fff;
+    }
+
+    .ri-arrow-right-s-line {
+        display: block;
+        transform: scale(1.5);
+        background-color: #000;
+        cursor: pointer;
+        margin-right: 14px;
+        color: #fff;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .details {
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section-details {
+        height: 100%;
+    width: 50%;
+    z-index: -7;
+    transform: translate(450px, 13px);
+        
+    }
+    .section-details::after{
+        content: "";
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        width: 100%;
+    }
+
+    .details-info {
+        transform: translate(-161px, 179px);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-detailz {
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 800px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        z-index: -5;
+        grid-column: 9;
+
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: hsl(271, 36%, 24%);
+        text-align: center;
+    }
+
+    .word-text {
+        font-size: 1rem;
+        width: 95%;
+        color: hsl(270, 7%, 64%);
+        line-height: 2;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        min-height: 0;
+
+    }
+
+    .linear-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linear {
+        grid-column: 1;
+        height: 400px;
+        width: 220px;
+        background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        border-radius: 0 0 230px 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-0px);
+    }
+
+    .iphone {
+        height: 540px;
+        background-color: #fff;
+        width: 280px;
+        transform: translate(90px, 117px);
+        border-radius: 50px;
+        box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .iphone-info {
+        width: 270px;
+        height: 670px;
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 33px 33px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iphone-head {
+        height: 80px;
+        background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 33px 33px 8px 8px;
+    }
+
+    .iphone-head-white {
+        height: 30px;
+        width: 170px;
+        background-color: #fff;
+        transform: translateY(-3px);
+        border-radius: 0 0 17px 17px;
+
+    }
+
+    .iphone-head-details {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ri-arrow-left-s-line {
+        display: block;
+        transform: scale(1);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-head-img {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .head-img {
+        height: 30px;
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .head-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .head-span {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .head-last-icon {}
+
+    .ri-more-2-line {
+        transform: scale(1);
+        display: block;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-chats {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .first-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+
+    }
+
+    .first-chat-text {
+        width: 80%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+    }
+
+    .sec-chat-text {
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+        width: 77%;
+    }
+
+    .dog-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .dogs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+
+    .dog-img {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .dog-chat-1 {
+        height: 35px;
+        background-color: #fff;
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 8px 12px;
+    }
+
+    .dog-text-1 {
+        width: 86%;
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .dog-chat-2 {
+        height: 35px;
+        background-color: #fff;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px 20px 10px 20px;
+    }
+
+    .dog-text-2 {
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .last-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .first-last {
+        background-color: hsl(270, 20%, 85%);
+        height: 55px;
+        width: 146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .first-last-text {
+        width: 90%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .circle {
+        height: 20px;
+        background-color: transparent;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        opacity: 0.6;
+
+    }
+
+    .last-text {
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    .last-span {
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+
+    .gap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .third-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    form {
+        display: flex;
+        border: 1px solid #fff;
+        background-color: #Fff;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    form:focus-within {
+        outline: 1px solid #Fff;
+    }
+
+    .input {
+        flex-grow: 2;
+        padding-left: 20px;
+        border-radius: 20rem;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: #fff;
+    }
+
+    .input:hover {
+        background-color: #Fff;
+    }
+
+    .ri-arrow-right-s-line {
+        display: block;
+        transform: scale(1.5);
+        background-color: #000;
+        cursor: pointer;
+        margin-right: 14px;
+        color: #fff;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .details {
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section-details {
+        height: 100%;
+    width: 50%;
+    z-index: -7;
+    transform: translate(450px, 13px);
+        
+    }
+    .section-details::after{
+        content: "";
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        width: 100%;
+    }
+
+    .details-info {
+        transform: translate(-161px, 290px);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-detailz {
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 640px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        z-index: -5;
+        grid-column: 9;
+
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: hsl(271, 36%, 24%);
+        text-align: center;
+    }
+
+    .word-text {
+        font-size: 1rem;
+        width: 95%;
+        color: hsl(270, 7%, 64%);
+        line-height: 2;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:480px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        min-height: 0;
+
+    }
+
+    .linear-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linear {
+        grid-column: 1;
+        height: 400px;
+        width: 220px;
+        background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        border-radius: 0 0 230px 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-0px);
+    }
+
+    .iphone {
+        height: 540px;
+        background-color: #fff;
+        width: 280px;
+        transform: translate(90px, 117px);
+        border-radius: 50px;
+        box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .iphone-info {
+        width: 270px;
+        height: 670px;
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 33px 33px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iphone-head {
+        height: 80px;
+        background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 33px 33px 8px 8px;
+    }
+
+    .iphone-head-white {
+        height: 30px;
+        width: 170px;
+        background-color: #fff;
+        transform: translateY(-3px);
+        border-radius: 0 0 17px 17px;
+
+    }
+
+    .iphone-head-details {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ri-arrow-left-s-line {
+        display: block;
+        transform: scale(1);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-head-img {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .head-img {
+        height: 30px;
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .head-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .head-span {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .head-last-icon {}
+
+    .ri-more-2-line {
+        transform: scale(1);
+        display: block;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-chats {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .first-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+
+    }
+
+    .first-chat-text {
+        width: 80%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+    }
+
+    .sec-chat-text {
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+        width: 77%;
+    }
+
+    .dog-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .dogs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+
+    .dog-img {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .dog-chat-1 {
+        height: 35px;
+        background-color: #fff;
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 8px 12px;
+    }
+
+    .dog-text-1 {
+        width: 86%;
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .dog-chat-2 {
+        height: 35px;
+        background-color: #fff;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px 20px 10px 20px;
+    }
+
+    .dog-text-2 {
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .last-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .first-last {
+        background-color: hsl(270, 20%, 85%);
+        height: 55px;
+        width: 146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .first-last-text {
+        width: 90%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .circle {
+        height: 20px;
+        background-color: transparent;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        opacity: 0.6;
+
+    }
+
+    .last-text {
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    .last-span {
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+
+    .gap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .third-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    form {
+        display: flex;
+        border: 1px solid #fff;
+        background-color: #Fff;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    form:focus-within {
+        outline: 1px solid #Fff;
+    }
+
+    .input {
+        flex-grow: 2;
+        padding-left: 20px;
+        border-radius: 20rem;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: #fff;
+    }
+
+    .input:hover {
+        background-color: #Fff;
+    }
+
+    .ri-arrow-right-s-line {
+        display: block;
+        transform: scale(1.5);
+        background-color: #000;
+        cursor: pointer;
+        margin-right: 14px;
+        color: #fff;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .details {
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section-details {
+        height: 100%;
+        width: 100%;
+        z-index: -7;
+        
+    }
+    .section-details::after{
+        content: "";
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        width: 100%;
+    }
+
+    .details-info {
+        transform: translate(-161px, 179px);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-detailz {
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        z-index: -5;
+        grid-column: 9;
+
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: hsl(271, 36%, 24%);
+        text-align: center;
+    }
+
+    .word-text {
+        font-size: 1rem;
+        width: 95%;
+        color: hsl(270, 7%, 64%);
+        line-height: 2;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:360px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        min-height: 0;
+
+    }
+
+    .linear-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linear {
+        grid-column: 1;
+        height: 400px;
+        width: 220px;
+        background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        border-radius: 0 0 230px 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-35px);
+    }
+
+    .iphone {
+        height: 540px;
+        background-color: #fff;
+        width: 280px;
+        transform: translate(90px, 117px);
+        border-radius: 50px;
+        box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .iphone-info {
+        width: 270px;
+        height: 670px;
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 33px 33px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iphone-head {
+        height: 80px;
+        background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 33px 33px 8px 8px;
+    }
+
+    .iphone-head-white {
+        height: 30px;
+        width: 170px;
+        background-color: #fff;
+        transform: translateY(-3px);
+        border-radius: 0 0 17px 17px;
+
+    }
+
+    .iphone-head-details {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ri-arrow-left-s-line {
+        display: block;
+        transform: scale(1);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-head-img {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .head-img {
+        height: 30px;
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .head-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .head-span {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .head-last-icon {}
+
+    .ri-more-2-line {
+        transform: scale(1);
+        display: block;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-chats {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .first-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+
+    }
+
+    .first-chat-text {
+        width: 80%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+    }
+
+    .sec-chat-text {
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+        width: 77%;
+    }
+
+    .dog-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .dogs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+
+    .dog-img {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .dog-chat-1 {
+        height: 35px;
+        background-color: #fff;
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 8px 12px;
+    }
+
+    .dog-text-1 {
+        width: 86%;
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .dog-chat-2 {
+        height: 35px;
+        background-color: #fff;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px 20px 10px 20px;
+    }
+
+    .dog-text-2 {
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .last-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .first-last {
+        background-color: hsl(270, 20%, 85%);
+        height: 55px;
+        width: 146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .first-last-text {
+        width: 90%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .circle {
+        height: 20px;
+        background-color: transparent;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        opacity: 0.6;
+
+    }
+
+    .last-text {
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    .last-span {
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+
+    .gap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .third-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    form {
+        display: flex;
+        border: 1px solid #fff;
+        background-color: #Fff;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    form:focus-within {
+        outline: 1px solid #Fff;
+    }
+
+    .input {
+        flex-grow: 2;
+        padding-left: 20px;
+        border-radius: 20rem;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: #fff;
+    }
+
+    .input:hover {
+        background-color: #Fff;
+    }
+
+    .ri-arrow-right-s-line {
+        display: block;
+        transform: scale(1.5);
+        background-color: #000;
+        cursor: pointer;
+        margin-right: 14px;
+        color: #fff;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .details {
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section-details {
+        height: 100%;
+        width: 100%;
+        z-index: -7;
+        
+    }
+    .section-details::after{
+        content: "";
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        width: 100%;
+    }
+
+    .details-info {
+        transform: translate(-161px, 179px);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-detailz {
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        z-index: -5;
+        grid-column: 9;
+
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: hsl(271, 36%, 24%);
+        text-align: center;
+    }
+
+    .word-text {
+        font-size: 1rem;
+        width: 95%;
+        color: hsl(270, 7%, 64%);
+        line-height: 2;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:320px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        min-height: 0;
+
+    }
+
+    .linear-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linear {
+        grid-column: 1;
+        height: 400px;
+        width: 220px;
+        background-image: linear-gradient(220deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        border-radius: 0 0 230px 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-35px);
+    }
+
+    .iphone {
+        height: 540px;
+        background-color: #fff;
+        width: 280px;
+        transform: translate(90px, 117px);
+        border-radius: 50px;
+        box-shadow: 12px 25px 22px 10px rgb(0 0 0 / 10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .iphone-info {
+        width: 270px;
+        height: 670px;
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 33px 33px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iphone-head {
+        height: 80px;
+        background-image: linear-gradient(250deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 60%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 33px 33px 8px 8px;
+    }
+
+    .iphone-head-white {
+        height: 30px;
+        width: 170px;
+        background-color: #fff;
+        transform: translateY(-3px);
+        border-radius: 0 0 17px 17px;
+
+    }
+
+    .iphone-head-details {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ri-arrow-left-s-line {
+        display: block;
+        transform: scale(1);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-head-img {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .head-img {
+        height: 30px;
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .head-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    .head-span {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .head-last-icon {}
+
+    .ri-more-2-line {
+        transform: scale(1);
+        display: block;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .iphone-chats {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .first-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+
+    }
+
+    .first-chat-text {
+        width: 80%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-chat {
+        background-color: hsl(270, 20%, 85%);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 14px 14px 14px 8px;
+        padding-left: 20px;
+    }
+
+    .sec-chat-text {
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+        width: 77%;
+    }
+
+    .dog-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .dogs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+
+    .dog-img {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .dog-chat-1 {
+        height: 35px;
+        background-color: #fff;
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 8px 12px;
+    }
+
+    .dog-text-1 {
+        width: 86%;
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .dog-chat-2 {
+        height: 35px;
+        background-color: #fff;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px 20px 10px 20px;
+    }
+
+    .dog-text-2 {
+        color: hsl(271, 15%, 43%);
+        font-size: 0.6rem;
+    }
+
+    .last-chats {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .first-last {
+        background-color: hsl(270, 20%, 85%);
+        height: 55px;
+        width: 146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .first-last-text {
+        width: 90%;
+        color: hsl(270, 55%, 52%);
+        font-size: 0.6rem;
+    }
+
+    .sec-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    .circle {
+        height: 20px;
+        background-color: transparent;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        opacity: 0.6;
+
+    }
+
+    .last-text {
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    .last-span {
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+
+    .gap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .third-last {
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) 20%, hsl(264, 100%, 61%) 60%);
+        height: 40px;
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 14px 14px 14px 8px;
+
+    }
+
+    form {
+        display: flex;
+        border: 1px solid #fff;
+        background-color: #Fff;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    form:focus-within {
+        outline: 1px solid #Fff;
+    }
+
+    .input {
+        flex-grow: 2;
+        padding-left: 20px;
+        border-radius: 20rem;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: #fff;
+    }
+
+    .input:hover {
+        background-color: #Fff;
+    }
+
+    .ri-arrow-right-s-line {
+        display: block;
+        transform: scale(1.5);
+        background-color: #000;
+        cursor: pointer;
+        margin-right: 14px;
+        color: #fff;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .details {
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section-details {
+        height: 100%;
+        width: 100%;
+        z-index: -7;
+        
+    }
+    .section-details::after{
+        content: "";
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        width: 100%;
+    }
+
+    .details-info {
+        transform: translate(-161px, 179px);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-detailz {
+        background-color: hsl(270, 20%, 96%);
+        border-radius: 20rem 20rem 0 0;
+        height: 600px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        z-index: -5;
+        grid-column: 9;
+
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: hsl(271, 36%, 24%);
+        text-align: center;
+    }
+
+    .word-text {
+        font-size: 1rem;
+        width: 95%;
+        color: hsl(270, 7%, 64%);
+        line-height: 2;
+        text-align: center;
+    }
+}
